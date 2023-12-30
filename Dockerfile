@@ -3,8 +3,9 @@ FROM alpine:3.19 AS builder
 RUN apk add --no-cache curl tar xz bash alpine-sdk \
                        nasm coreutils 
 
-# Uncomment this line and add your compile-time headers here (*-dev packages)
-# RUN apk add --no-cache ...
+# compile-time header/development files
+RUN apk add --no-cache dav1d-dev lame-dev opus-dev libvorbis-dev \
+                       openssl-dev libvpx-dev
 
 COPY . /build
 WORKDIR /build
@@ -20,5 +21,6 @@ RUN ./build.sh
 
 FROM alpine:3.19 AS final
 COPY --from=builder /tmp/ffmpeg/ /usr
-# Uncomment this line and add your runtime libraries here
-# RUN apk add --no-cache ...
+# runtime libraries
+RUN apk add --no-cache libdav1d lame-dev libopusenc \
+                       libvorbis openssl libvpx

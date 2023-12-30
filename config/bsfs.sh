@@ -1,5 +1,5 @@
 WANT_BSFS=(
-#    aac_adtstoasc
+    aac_adtstoasc
 #    av1_frame_merge
 #    av1_frame_split
 #    av1_metadata

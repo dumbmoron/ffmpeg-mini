@@ -1,9 +1,9 @@
 WANT_DEMUXERS=(
 #    aa
-#    aac
+    aac
 #    aax
-#    ac3
-#    ac4
+    ac3
+    ac4
 #    ace
 #    acm
 #    act
@@ -36,7 +36,7 @@ WANT_DEMUXERS=(
 #    ass
 #    ast
 #    au
-#    av1
+    av1
 #    avi
 #    avisynth
 #    avr
@@ -93,7 +93,7 @@ WANT_DEMUXERS=(
 #    fits
 #    flac
 #    flic
-#    flv
+    flv
 #    fourxm
 #    frm
 #    fsb
@@ -110,11 +110,11 @@ WANT_DEMUXERS=(
 #    gxf
 #    h261
 #    h263
-#    h264
+    h264
 #    hca
 #    hcom
 #    hevc
-#    hls
+    hls
 #    hnm
 #    ico
 #    idcin
@@ -187,8 +187,8 @@ WANT_DEMUXERS=(
 #    luodat
 #    lvf
 #    lxf
-#    m4v
-#    matroska
+    m4v
+    matroska
 #    mca
 #    mcc
 #    mgsts
@@ -202,13 +202,13 @@ WANT_DEMUXERS=(
 #    mods
 #    moflex
 #    mov
-#    mp3
+    mp3
 #    mpc
 #    mpc8
 #    mpegps
-#    mpegts
-#    mpegtsraw
-#    mpegvideo
+    mpegts
+    mpegtsraw
+    mpegvideo
 #    mpjpeg
 #    mpl2
 #    mpsub
@@ -229,7 +229,7 @@ WANT_DEMUXERS=(
 #    nut
 #    nuv
 #    obu
-#    ogg
+    ogg
 #    oma
 #    osq
 #    paf
@@ -240,7 +240,7 @@ WANT_DEMUXERS=(
 #    pcm_f64le
 #    pcm_mulaw
 #    pcm_s16be
-#    pcm_s16le
+    pcm_s16le
 #    pcm_s24be
 #    pcm_s24le
 #    pcm_s32be
@@ -337,10 +337,10 @@ WANT_DEMUXERS=(
 #    vvc
 #    w64
 #    wady
-#    wav
+    wav
 #    wavarc
 #    wc3
-#    webm_dash_manifest
+    webm_dash_manifest
 #    webvtt
 #    wsaud
 #    wsd

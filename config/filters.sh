@@ -73,7 +73,7 @@ WANT_FILTERS=(
 #    apsyclip
 #    apulsator
 #    arealtime
-#    aresample
+    aresample
 #    areverse
 #    arls
 #    arnndn

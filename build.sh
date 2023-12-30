@@ -17,7 +17,7 @@ CONFIGURE_ARGS=(
 ## LICENSING OPTIONS
     --enable-gpl
     --enable-version3
-    # --enable-nonfree
+    --enable-nonfree
 
 ## CONFIGURATION OPTIONS
     --fatal-warnings
@@ -92,7 +92,7 @@ CONFIGURE_ARGS=(
     # --enable-libcelt
     # --enable-libcdio
     # --enable-libcodec2
-    # --enable-libdav1d
+     --enable-libdav1d
     # --enable-libdavs2
     # --enable-libdc1394
     # --enable-libfdk-aac
@@ -112,7 +112,7 @@ CONFIGURE_ARGS=(
     # --enable-libkvazaar
     # --enable-liblensfun
     # --enable-libmodplug
-    # --enable-libmp3lame
+     --enable-libmp3lame
     # --enable-libopencore-amrnb
     # --enable-libopencore-amrwb
     # --enable-libopencv
@@ -120,7 +120,7 @@ CONFIGURE_ARGS=(
     # --enable-libopenjpeg
     # --enable-libopenmpt
     # --enable-libopenvino
-    # --enable-libopus
+     --enable-libopus
     # --enable-libplacebo
     # --enable-libpulse
     # --enable-librabbitmq
@@ -148,8 +148,8 @@ CONFIGURE_ARGS=(
     # --enable-libvidstab
     # --enable-libvmaf
     # --enable-libvo-amrwbenc
-    # --enable-libvorbis
-    # --enable-libvpx
+     --enable-libvorbis
+     --enable-libvpx
     # --enable-libwebp
     # --enable-libx264
     # --enable-libx265
@@ -175,7 +175,7 @@ CONFIGURE_ARGS=(
     # --enable-openal
     # --enable-opencl
     # --enable-opengl
-    # --enable-openssl
+     --enable-openssl
     # --enable-pocketsphinx
     --disable-sndio
     --disable-schannel

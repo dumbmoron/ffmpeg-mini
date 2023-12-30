@@ -1,10 +1,10 @@
 WANT_PARSERS=(
-#    aac
+    aac
 #    aac_latm
-#    ac3
+    ac3
 #    adx
 #    amr
-#    av1
+    av1
 #    avs2
 #    avs3
 #    bmp
@@ -29,7 +29,7 @@ WANT_PARSERS=(
 #    gsm
 #    h261
 #    h263
-#    h264
+    h264
 #    hdr
 #    hevc
 #    ipu
@@ -38,10 +38,10 @@ WANT_PARSERS=(
 #    misc4
 #    mjpeg
 #    mlp
-#    mpeg4video
-#    mpegaudio
-#    mpegvideo
-#    opus
+    mpeg4video
+    mpegaudio
+    mpegvideo
+    opus
 #    png
 #    pnm
 #    qoi
@@ -50,10 +50,10 @@ WANT_PARSERS=(
 #    sipr
 #    tak
 #    vc1
-#    vorbis
+    vorbis
 #    vp3
-#    vp8
-#    vp9
+    vp8
+    vp9
 #    vvc
 #    webp
 #    xbm

@@ -100,11 +100,11 @@ WANT_ENCODERS=(
 #    libilbc
 #    libjxl
 #    libkvazaar
-#    libmp3lame
+    libmp3lame
 #    libopencore_amrnb
 #    libopenh264
 #    libopenjpeg
-#    libopus
+    libopus
 #    librav1e
 #    libshine
 #    libspeex
@@ -112,7 +112,7 @@ WANT_ENCODERS=(
 #    libtheora
 #    libtwolame
 #    libvo_amrwbenc
-#    libvorbis
+    libvorbis
 #    libvpx_vp8
 #    libvpx_vp9
 #    libwebp
@@ -162,7 +162,7 @@ WANT_ENCODERS=(
 #    pcm_mulaw_at
 #    pcm_s16be
 #    pcm_s16be_planar
-#    pcm_s16le
+    pcm_s16le
 #    pcm_s16le_planar
 #    pcm_s24be
 #    pcm_s24daud
