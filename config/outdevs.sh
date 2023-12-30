@@ -11,16 +11,4 @@ WANT_OUTDEVS=(
 #    sndio
 #    v4l2
 #    xv
-#    fbdev
-#    oss
-#    alsa
-#    opengl
-#    sdl2
-#    caca
-#    audiotoolbox
-#    v4l2
-#    sndio
-#    decklink
-#    pulse
-#    xv
 )

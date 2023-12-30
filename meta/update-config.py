@@ -2,12 +2,12 @@
 import sys
 import os.path
 
-def read_things_stdin():
+def read_things_stdin(suffix):
     things = []
     for thing in sys.stdin:
         thing = thing.strip()
         if thing:
-            things.append(thing)
+            things.append(thing.strip().replace(f"_{suffix}", ""))
     return things
 
 def read_things_config(path, thing):
@@ -22,7 +22,7 @@ def read_things_config(path, thing):
     return things
 
 def diff(existing, new):
-    return set(existing) - set(new)
+    return set(new) - set(existing)
 
 def append_config(opt_diff, file_path, thing):
     lines = []
@@ -50,8 +50,8 @@ if __name__ == '__main__':
 
     file_path = os.path.join(sys.argv[1], f"{sys.argv[2]}s.sh")
     opt_diff = diff(
-        read_things_stdin(),
-        read_things_config(file_path, sys.argv[2])
+        read_things_config(file_path, sys.argv[2]),
+        read_things_stdin(sys.argv[2])
     )
     
     if len(opt_diff):

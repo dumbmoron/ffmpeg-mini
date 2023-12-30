@@ -20,25 +20,4 @@ WANT_INDEVS=(
 #    v4l2
 #    vfwcap
 #    xcbgrab
-#    avfoundation
-#    oss
-#    libcdio
-#    gdigrab
-#    decklink
-#    iec61883
-#    v4l2
-#    vfwcap
-#    fbdev
-#    android_camera
-#    openal
-#    xcbgrab
-#    alsa
-#    libdc1394
-#    dshow
-#    jack
-#    kmsgrab
-#    bktr
-#    pulse
-#    lavfi
-#    sndio
 )
