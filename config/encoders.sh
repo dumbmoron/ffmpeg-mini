@@ -64,7 +64,7 @@ WANT_ENCODERS=(
 #    flashsv2
 #    flv
 #    g723_1
-#    gif
+    gif
 #    h261
 #    h263
 #    h263_v4l2m2m
