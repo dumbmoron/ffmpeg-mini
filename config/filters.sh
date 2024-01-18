@@ -378,8 +378,8 @@ WANT_FILTERS=(
 #    pad_opencl
 #    pal100bars
 #    pal75bars
-#    palettegen
-#    paletteuse
+    palettegen
+    paletteuse
 #    pan
 #    perms
 #    perspective
@@ -417,7 +417,7 @@ WANT_FILTERS=(
 #    rotate
 #    rubberband
 #    sab
-#    scale
+    scale
 #    scale2ref
 #    scale2ref_npp
 #    scale_cuda
@@ -477,7 +477,7 @@ WANT_FILTERS=(
 #    sofalizer
 #    spectrumsynth
 #    speechnorm
-#    split
+    split
 #    spp
 #    sr
 #    ssim
