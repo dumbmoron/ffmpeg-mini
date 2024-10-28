@@ -44,7 +44,7 @@ die() {
 }
 
 ROOTDIR=$(git rev-parse --show-toplevel)
-TMP_DIR=$(mktemp -d)
+export TMP_DIR=$(mktemp -d)
 
 "$(dirname "$0")/prep.sh"
 cd "$TMP_DIR/ffmpeg" || die "could not enter tmpdir"
