@@ -52,4 +52,5 @@ WANT_PROTOCOLS=(
 #    udp
 #    udplite
 #    unix
+#    android_content
 )

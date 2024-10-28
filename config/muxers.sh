@@ -177,4 +177,8 @@ WANT_MUXERS=(
 #    wtv
 #    wv
 #    yuv4mpegpipe
+#    iamf
+#    aea
+#    lc3
+#    rcwt
 )

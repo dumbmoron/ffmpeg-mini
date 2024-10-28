@@ -62,4 +62,11 @@ WANT_HWACCELS=(
 #    mpeg2_nvdec
 #    vc1_d3d11va2
 #    mpeg2_videotoolbox
+#    av1_d3d12va
+#    mpeg2_d3d12va
+#    vc1_d3d12va
+#    hevc_d3d12va
+#    h264_d3d12va
+#    vp9_d3d12va
+#    wmv3_d3d12va
 )

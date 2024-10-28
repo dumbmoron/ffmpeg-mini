@@ -579,4 +579,14 @@ WANT_DECODERS=(
 #    zerocodec
 #    zlib
 #    zmbv
+#    aac_mediacodec
+#    vvc
+#    vvc_qsv
+#    amrwb_mediacodec
+#    mp3_mediacodec
+#    amrnb_mediacodec
+#    qoa
+#    libxevd
+#    lead
+#    liblc3
 )

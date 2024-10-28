@@ -567,4 +567,15 @@ WANT_FILTERS=(
 #    zoneplate
 #    zoompan
 #    zscale
+#    pad_vaapi
+#    aap
+#    tiltandshift
+#    perlin
+#    fsync
+#    qrencodesrc
+#    lcevc
+#    quirc
+#    xpsnr
+#    qrencode
+#    drawbox_vaapi
 )

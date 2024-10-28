@@ -43,4 +43,6 @@ WANT_BSFS=(
 #    vp9_superframe_split
 #    vvc_metadata
 #    vvc_mp4toannexb
+#    showinfo
+#    dovi_rpu
 )

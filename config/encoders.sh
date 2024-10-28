@@ -255,4 +255,11 @@ WANT_ENCODERS=(
 #    yuv4
 #    zlib
 #    zmbv
+#    hevc_d3d12va
+#    liblc3
+#    h264_vulkan
+#    libvvenc
+#    libxeve
+#    dxv
+#    hevc_vulkan
 )
