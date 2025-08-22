@@ -33,7 +33,6 @@ CONFIGURE_ARGS=(
     --disable-debug
     --enable-pic
     --enable-lto=auto
-    --enable-postproc
 
 ## BINARY OPTIONS
     # --disable-programs
