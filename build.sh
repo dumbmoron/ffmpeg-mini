@@ -49,7 +49,6 @@ CONFIGURE_ARGS=(
     # --disable-avformat
     # --disable-swresample
     --disable-swscale
-    --disable-postproc
     # --disable-avfilter
     # --disable-network
     # --disable-dwt
