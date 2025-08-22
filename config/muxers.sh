@@ -181,4 +181,7 @@ WANT_MUXERS=(
 #    aea
 #    lc3
 #    rcwt
+#    mcc
+#    whip
+#    apv
 )

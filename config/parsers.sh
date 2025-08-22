@@ -59,4 +59,8 @@ WANT_PARSERS=(
 #    xbm
 #    xma
 #    xwd
+#    apv
+#    dnxuc
+#    ffv1
+#    prores_raw
 )

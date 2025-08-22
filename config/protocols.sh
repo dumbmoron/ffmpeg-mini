@@ -53,4 +53,5 @@ WANT_PROTOCOLS=(
 #    udplite
 #    unix
 #    android_content
+#    dtls
 )

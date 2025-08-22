@@ -69,4 +69,9 @@ WANT_HWACCELS=(
 #    h264_d3d12va
 #    vp9_d3d12va
 #    wmv3_d3d12va
+#    vp9_vulkan
+#    prores_raw_vulkan
+#    vvc_vaapi
+#    ffv1_vulkan
+#    av1_videotoolbox
 )

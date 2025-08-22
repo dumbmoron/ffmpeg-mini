@@ -262,4 +262,11 @@ WANT_ENCODERS=(
 #    libxeve
 #    dxv
 #    hevc_vulkan
+#    av1_mf
+#    av1_vulkan
+#    liboapv
+#    libjxl_anim
+#    ffv1_vulkan
+#    h264_oh
+#    hevc_oh
 )

@@ -589,4 +589,17 @@ WANT_DECODERS=(
 #    libxevd
 #    lead
 #    liblc3
+#    hevc_amf
+#    g728
+#    vp9_amf
+#    adpcm_sanyo
+#    adpcm_ima_xbox
+#    hevc_oh
+#    prores_raw
+#    h264_oh
+#    libjxl_anim
+#    apv
+#    rv60
+#    av1_amf
+#    h264_amf
 )

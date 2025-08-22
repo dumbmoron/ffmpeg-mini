@@ -45,4 +45,7 @@ WANT_BSFS=(
 #    vvc_mp4toannexb
 #    showinfo
 #    dovi_rpu
+#    smpte436m_to_eia608
+#    apv_metadata
+#    eia608_to_smpte436m
 )
